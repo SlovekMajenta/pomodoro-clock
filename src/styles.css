@@ -1,0 +1,117 @@
+body{
+    margin:0px;
+    padding:0px;
+    color:whitesmoke;
+    font-family: 'Barlow Condensed', sans-serif;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+footer{
+    margin-top:10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 217, 0);
+    text-shadow: 2px 2px 2px rgb(255, 0, 0);
+}   
+
+#root{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 75, 136);
+    min-height:100vh;
+}
+
+#upper-part{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin:0px;
+    padding:0px;
+    font-size: 50px;
+    margin-bottom:10px;
+}
+
+h2{
+    font-size:30px;
+    margin:0px;
+    padding:0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+i{
+    margin-right:10px;
+    margin-left:10px;
+    font-size:26px;
+    cursor: pointer;
+}
+
+i:hover{
+    color:rgba(255, 0, 60, 0.397);
+}
+
+
+#length-buttons{
+    display:flex;
+    flex-direction: row;
+}
+
+#length-buttons > div{
+    margin-right:20px;
+    margin-left:20px;
+}
+
+div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div > h2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h23{
+    min-width:120px;
+}
+
+#session{
+    background-color: rgba(255, 0, 60, 0.397);
+    border-radius: 20px;
+    border: 10px outset rgb(0, 156, 148);
+    margin:20px;
+    min-width: 290px;
+    box-sizing: border-box;
+}
+
+#session > h2{
+    margin:0px;
+    padding:0px;
+    border-radius: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+#time{
+    font-size:50px;
+    font-family: 'PT Mono', monospace;
+}
+
+#play-buttons{
+    margin-bottom:10px;
+}
