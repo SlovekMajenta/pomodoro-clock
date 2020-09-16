@@ -158,7 +158,7 @@ export default class UpperPart extends React.Component{
                 <i className="fas fa-pause" onClick={this.pause}></i>
                 <i className="fas fa-sync-alt" onClick={this.toDef}></i>
             </section>
-            <footer><a href="tg://resolve?domain=steveblowjobs666">Slava Merkulov Production</a></footer>
+            <footer><a href="tg://resolve?domain=steveblobs666">Slava Merkulov Production</a></footer>
         </section>
         );
     }
